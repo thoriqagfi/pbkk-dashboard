@@ -121,20 +121,19 @@
                             </Rectangle.Effect>
                         </Rectangle>
                         <Grid Margin="25" Height="120">
-                            <Grid Width="35" Height="50" Background="#FFFFAF24" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20 0">
+                            <Grid Width="35" Height="50" Background="Red" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20 0">
                                 <Grid.Effect>
                                     <DropShadowEffect BlurRadius="20" Color="#FFECECEC" RenderingBias="Quality" ShadowDepth="1"/>
                                 </Grid.Effect>
-                                <materialDesign:PackIcon Kind="ContentCopy" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="White" Width="20" Height="20"/>
+                                <materialDesign:PackIcon Kind="Code" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="White" Width="20" Height="20"/>
                             </Grid>
-                            <TextBlock Text="Total Pemakaian Kuota" HorizontalAlignment="Right" FontFamily="Champagne &amp; Limousines" Margin="5" VerticalAlignment="Top" Foreground="Black"/>
+                            <TextBlock Text="Pendaftar NPC" HorizontalAlignment="Right" FontFamily="Champagne &amp; Limousines" Margin="5" VerticalAlignment="Top" Foreground="Black"/>
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10 20">
-                                <TextBlock Text="49/50" FontFamily="Champagne &amp; Limousines" VerticalAlignment="Center" Foreground="Black" FontSize="50"/>
-                                <TextBlock Text="GB" FontFamily="Champagne &amp; Limousines" Margin="0 5" Foreground="Black" FontSize="20" VerticalAlignment="Bottom"/>
+                                <TextBlock Text="1958" FontFamily="Champagne &amp; Limousines" VerticalAlignment="Center" Foreground="Black" FontSize="50" FontWeight="Bold"/>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Margin="20" Cursor="Hand">
                                 <materialDesign:PackIcon Kind="AlertOutline" Foreground="Red" Width="10" Height="10" VerticalAlignment="Center" Margin="5 0"/>
-                                <TextBlock Text="Ruang penyimpanan hampir habis" FontSize="8" Foreground="#FF173696"/>
+                                <TextBlock Text="Pendaftar belum mencapai target" FontSize="8" Foreground="#FF173696"/>
                             </StackPanel>
                         </Grid>
                     </Grid>
@@ -149,16 +148,16 @@
                                 <Grid.Effect>
                                     <DropShadowEffect BlurRadius="20" Color="#FFECECEC" RenderingBias="Quality" ShadowDepth="1"/>
                                 </Grid.Effect>
-                                <materialDesign:PackIcon Kind="Store" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="White" Width="20" Height="20"/>
+                                <materialDesign:PackIcon Kind="Money" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="White" Width="20" Height="20"/>
                             </Grid>
                             <TextBlock Text="Pemasukan" HorizontalAlignment="Right" FontFamily="Champagne &amp; Limousines" Margin="5" VerticalAlignment="Top" Foreground="Black"/>
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10 30">
-                                <TextBlock Text="$" FontFamily="Champagne &amp; Limousines" Margin="0 2" Foreground="Black" FontSize="20" VerticalAlignment="Bottom"/>
-                                <TextBlock Text="35.674,00" FontFamily="Champagne &amp; Limousines" VerticalAlignment="Center" Foreground="Black" FontSize="30"/>
+                                <TextBlock Text="$" FontFamily="Champagne &amp; Limousines" Foreground="Black" FontSize="20"/>
+                                <TextBlock Text="35.674,00" FontFamily="Champagne &amp; Limousines" VerticalAlignment="Center" Foreground="Black" FontSize="30" FontWeight="Bold"/>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Margin="20">
-                                <materialDesign:PackIcon Kind="Calendar" Foreground="Gray" Width="10" Height="10" VerticalAlignment="Center" Margin="5 0"/>
-                                <TextBlock Text="Ultimas 24h" FontSize="8" Foreground="Gray"/>
+                                <materialDesign:PackIcon Kind="Check" Foreground="Gray" Width="10" Height="10" VerticalAlignment="Center" Margin="5 0"/>
+                                <TextBlock Text="Total Pemasukan Sudah Sesuai" FontSize="8" Foreground="Gray"/>
                             </StackPanel>
                         </Grid>
                     </Grid>
@@ -169,11 +168,11 @@
                             </Rectangle.Effect>
                         </Rectangle>
                         <Grid Margin="25" Height="120">
-                            <Grid Width="35" Height="50" Background="#FFCF1F1F" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20 0">
+                            <Grid Width="35" Height="50" Background="DarkBlue" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20 0">
                                 <Grid.Effect>
                                     <DropShadowEffect BlurRadius="20" Color="#FFECECEC" RenderingBias="Quality" ShadowDepth="1"/>
                                 </Grid.Effect>
-                                <materialDesign:PackIcon Kind="InformationOutline" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="White" Width="20" Height="20"/>
+                                <materialDesign:PackIcon Kind="Ticket" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="White" Width="20" Height="20"/>
                             </Grid>
                             <TextBlock Text="Erros Corrigidos" HorizontalAlignment="Right" FontFamily="Champagne &amp; Limousines" Margin="5" VerticalAlignment="Top" Foreground="Gray"/>
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10 30">
