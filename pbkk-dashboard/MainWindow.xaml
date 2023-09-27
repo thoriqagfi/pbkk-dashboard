@@ -100,7 +100,7 @@
         </Grid.RowDefinitions>
 
 
-        <Grid Grid.Column="1" Grid.Row="1" Background="#FFCFCFCF">
+        <Grid Grid.Column="1" Grid.Row="1" Background="White">
             <ScrollViewer>
                 <Grid>
                     <Grid.RowDefinitions>
@@ -127,7 +127,7 @@
                                 </Grid.Effect>
                                 <materialDesign:PackIcon Kind="Code" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="White" Width="20" Height="20"/>
                             </Grid>
-                            <TextBlock Text="Pendaftar NPC" HorizontalAlignment="Right" FontFamily="Champagne &amp; Limousines" Margin="5" VerticalAlignment="Top" Foreground="Black"/>
+                            <TextBlock Text="Total Pendaftar Lomba" HorizontalAlignment="Right" FontFamily="Champagne &amp; Limousines" Margin="5" VerticalAlignment="Top" Foreground="Black"/>
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10 20">
                                 <TextBlock Text="1958" FontFamily="Champagne &amp; Limousines" VerticalAlignment="Center" Foreground="Black" FontSize="50" FontWeight="Bold"/>
                             </StackPanel>
@@ -174,13 +174,13 @@
                                 </Grid.Effect>
                                 <materialDesign:PackIcon Kind="Ticket" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Foreground="White" Width="20" Height="20"/>
                             </Grid>
-                            <TextBlock Text="Erros Corrigidos" HorizontalAlignment="Right" FontFamily="Champagne &amp; Limousines" Margin="5" VerticalAlignment="Top" Foreground="Gray"/>
+                            <TextBlock Text="Total Tickets" HorizontalAlignment="Right" FontFamily="Champagne &amp; Limousines" Margin="5" VerticalAlignment="Top" Foreground="Black"/>
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10 30">
-                                <TextBlock Text="75" FontFamily="Champagne &amp; Limousines" VerticalAlignment="Center" Foreground="Gray" FontSize="40"/>
+                                <TextBlock Text="75" FontFamily="Champagne &amp; Limousines" VerticalAlignment="Center" Foreground="Black" FontSize="40" FontWeight="Bold"/>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Margin="20">
-                                <materialDesign:PackIcon Kind="Github" Foreground="Gray" Width="10" Height="10" VerticalAlignment="Center" Margin="5 0"/>
-                                <TextBlock Text="Monitorado pelo GitHub" FontSize="8" Foreground="Gray"/>
+                                <materialDesign:PackIcon Kind="Warning" Foreground="Gray" Width="10" Height="10" VerticalAlignment="Center" Margin="5 0"/>
+                                <TextBlock Text="Target tiket belum memenuhi target" FontSize="8" Foreground="Gray"/>
                             </StackPanel>
                         </Grid>
                     </Grid>
@@ -190,7 +190,6 @@
                             <Grid.OpacityMask>
                                 <VisualBrush Visual="{ Binding ElementName=BorderG1 }"/>
                             </Grid.OpacityMask>
-                            <Border x:Name="BorderG1" CornerRadius="5" Background="White"/>
                             <StackPanel VerticalAlignment="Bottom" >
                                 <TextBlock Text="Receita Diária" Margin="10 0" FontFamily="Champagne &amp; Limousines" Foreground="Gray" FontSize="20"/>
                                 <StackPanel Orientation="Horizontal" Margin="20 5">
@@ -208,17 +207,6 @@
                             <Grid.OpacityMask>
                                 <VisualBrush Visual="{ Binding ElementName=BorderG2 }"/>
                             </Grid.OpacityMask>
-                            <Border x:Name="BorderG2" CornerRadius="15" Background="#FF0C1B4A"/>
-
-                            <MetroChart:RadialGaugeChart Background="{x:Null}" ChartTitle="Simple Dashboard" ChartSubTitle="" Foreground="LightGray" >
-                                <MetroChart:RadialGaugeChart.Series>
-                                    <MetroChart:ChartSeries
-                                        DisplayMember="Titulo"
-                                        ItemsSource="{Binding Path=aGFI}"
-                                        SeriesTitle="Consumo"
-                                        ValueMember="Porcentagem" HorizontalAlignment="Center"/>
-                                </MetroChart:RadialGaugeChart.Series>
-                            </MetroChart:RadialGaugeChart>
                         </Grid>
                     </Grid>
                 </Grid>
@@ -237,7 +225,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid.Effect>
-                <DropShadowEffect BlurRadius="20" Color="#FFDEDEDE" RenderingBias="Quality" ShadowDepth="1"/>
+                <DropShadowEffect BlurRadius="20" Color="White" RenderingBias="Quality" ShadowDepth="1"/>
             </Grid.Effect>
 
             <Grid Background="#FF173696">
@@ -251,7 +239,7 @@
                 <Button Margin="10" Background="#FF173696" BorderBrush="#FF173696">
                     <Grid Width="150">
                         <materialDesign:PackIcon Kind="ViewDashboard" VerticalAlignment="Center"/>
-                        <TextBlock HorizontalAlignment="Center" Text="DASHBOARD" FontFamily="Champagne &amp; Limousines"/>
+                        <TextBlock HorizontalAlignment="Center" Text="Dashboard" FontFamily="Champagne &amp; Limousines"/>
                     </Grid>
                 </Button>
 
